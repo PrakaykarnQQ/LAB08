@@ -47,11 +47,11 @@ class DashboardScreen extends StatefulWidget {
 
 class _DashboardScreenState extends State<DashboardScreen> {
   final List<SmartDevice> _devices = [
-    SmartDevice(id: '1', name: 'Living Room Light', type: 'Lighting', imageUrl: 'https://picsum.photos/id/259/400/600', isActive: true),
-    SmartDevice(id: '2', name: 'Bedroom AC', type: 'Climate', imageUrl: 'https://picsum.photos/id/103/400/600'),
-    SmartDevice(id: '3', name: 'Front Door Camera', type: 'Security', imageUrl: 'https://picsum.photos/id/1025/400/600'),
-    SmartDevice(id: '4', name: 'Smart TV', type: 'Entertainment', imageUrl: 'https://picsum.photos/id/2/400/600'),
-    SmartDevice(id: '5', name: 'Kitchen Purifier', type: 'Appliance', imageUrl: 'https://picsum.photos/id/160/400/600'),
+    SmartDevice(id: '1', name: 'Living Room Light', type: 'Lighting', imageUrl: 'https://rnb.scene7.com/is/image/roomandboard/metro_505736_25e?size=2400,2400&scl=1', isActive: true),
+    SmartDevice(id: '2', name: 'Bedroom AC', type: 'Climate', imageUrl: 'https://bedthreads.com/cdn/shop/articles/079a72c72055f50897137e3ae36e87c7934ae857-2000x2800_a91f1530-2df0-41ca-8f2e-ed022adaa4d2.jpg?v=1657004118'),
+    SmartDevice(id: '3', name: 'Front Door Camera', type: 'Security', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ndexy5Z0_VsG8RKzmrsfEk2uV_VLUbSchQ&s'),
+    SmartDevice(id: '4', name: 'Smart TV', type: 'Entertainment', imageUrl: 'https://cdn.mos.cms.futurecdn.net/9nAad5zR5FnLHeyxwEfECJ.jpg'),
+    SmartDevice(id: '5', name: 'Kitchen Purifier', type: 'Appliance', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgWUrT_27vDtIkPV7CpO94PslKNaYcmx6WmA&s'),
   ];
 
   // ฟังก์ชันสลับลำดับ (Drag & Drop)
